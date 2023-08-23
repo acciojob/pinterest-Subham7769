@@ -1,12 +1,11 @@
-/*  your css code here. If applicable */
-.Container{
+.hero{
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
     overflow: hidden;
 }
-.Container>div{
+.Container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,12 +15,12 @@
     text-align: center;
     padding: 30px;
 }
-.Container>img{
+.hero>img{
     width: 90vw;
     height: 400px;
     object-fit: cover;
 }
-.Container>div>button{
+.Container>button{
     background-color: #ff0001;
     padding: 10px;
     border-radius: 5px;
